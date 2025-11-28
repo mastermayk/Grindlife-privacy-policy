@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Grind Life RPG</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #0A0E27 0%, #1a1f3a 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #B345FF;
+        }
+        
+        .header h1 {
+            color: #B345FF;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .last-updated {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #666;
+        }
+        
+        h2 {
+            color: #0A0E27;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #B345FF;
+        }
+        
+        h3 {
+            color: #1a1f3a;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #444;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            padding: 20px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .info-box {
+            background: #e7f5ff;
+            padding: 20px;
+            border-left: 4px solid #00D9FF;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .pricing-table {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+        
+        .tier {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            border: 2px solid #ddd;
+        }
+        
+        .tier h4 {
+            color: #B345FF;
+            margin-bottom: 10px;
+            font-size: 1.4em;
+        }
+        
+        .tier.premium {
+            border-color: #B345FF;
+            background: linear-gradient(135deg, rgba(179, 69, 255, 0.1) 0%, rgba(0, 217, 255, 0.1) 100%);
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #B345FF 0%, #00D9FF 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .contact-box h2 {
+            color: white;
+            border: none;
+            margin-top: 0;
+        }
+        
+        .contact-box a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        
+        .summary-box {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+        
+        .summary-box h2 {
+            margin-top: 0;
+        }
+        
+        .checkmark {
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #ddd;
+            color: #666;
+        }
+        
+        a {
+            color: #B345FF;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        strong {
+            color: #0A0E27;
+        }
+        
+        .prohibited {
+            background: #ffe6e6;
+            padding: 15px;
+            border-left: 4px solid #dc3545;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📜 Terms of Service</h1>
+            <p class="subtitle">Grind Life RPG</p>
+        </div>
+        
+        <div class="last-updated">
+            <strong>Last Updated:</strong> November 28, 2024
+        </div>
+        
+        <div class="info-box">
+            <strong>TL;DR:</strong> Be respectful, don't abuse the app, follow the rules. We reserve the right to terminate accounts that violate these terms. Premium subscriptions auto-renew monthly. Read on for full details.
+        </div>
+
+        <h2>Agreement to Terms</h2>
+        <p>By accessing or using Grind Life RPG ("App," "Service," "we," "us," or "our"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.</p>
+
+        <h2>1. Acceptance of Terms</h2>
+
+        <h3>1.1 Binding Agreement</h3>
+        <p>These Terms constitute a legally binding agreement between you and Grind Life RPG. By creating an account or using the App, you accept these Terms in full.</p>
+
+        <h3>1.2 Age Requirement</h3>
+        <div class="warning-box">
+            <strong>Important:</strong> You must be at least <strong>13 years old</strong> to use this App. If you are under 18, you must have parental or guardian consent.
+        </div>
+
+        <h3>1.3 Changes to Terms</h3>
+        <p>We reserve the right to modify these Terms at any time. We will notify you of significant changes via in-app notification or email. Continued use after changes constitutes acceptance.</p>
+
+        <h2>2. Account Registration</h2>
+
+        <h3>2.1 Account Creation</h3>
+        <p>To use certain features, you must create an account by providing:</p>
+        <ul>
+            <li>Valid email address</li>
+            <li>Username</li>
+            <li>Password</li>
+            <li>Display name</li>
+        </ul>
+
+        <h3>2.2 Account Security</h3>
+        <p>You are responsible for:</p>
+        <ul>
+            <li>Maintaining the confidentiality of your password</li>
+            <li>All activities that occur under your account</li>
+            <li>Notifying us immediately of any unauthorized access</li>
+        </ul>
+
+        <h3>2.3 Account Information</h3>
+        <p>You agree to provide accurate, current, and complete information. You must update your information to keep it accurate.</p>
+
+        <h3>2.4 One Account Per User</h3>
+        <p>You may only create one account. Multiple accounts may be terminated.</p>
+
+        <h2>3. Acceptable Use</h2>
+
+        <h3>3.1 Permitted Use</h3>
+        <p>You may use the App to:</p>
+        <ul>
+            <li><span class="checkmark">✓</span> Create and track personal quests and goals</li>
+            <li><span class="checkmark">✓</span> Earn XP and level up your character</li>
+            <li><span class="checkmark">✓</span> Join guilds and interact with other users</li>
+            <li><span class="checkmark">✓</span> Participate in challenges and competitions</li>
+            <li><span class="checkmark">✓</span> Access premium features (if subscribed)</li>
+        </ul>
+
+        <h3>3.2 Prohibited Activities</h3>
+        
+        <div class="prohibited">
+            <strong>You agree NOT to:</strong>
+        </div>
+
+        <p><strong>Content Violations:</strong></p>
+        <ul>
+            <li>❌ Post offensive, hateful, or discriminatory content</li>
+            <li>❌ Share sexually explicit or inappropriate material</li>
+            <li>❌ Post spam, advertising, or promotional content</li>
+            <li>❌ Share false, misleading, or deceptive information</li>
+            <li>❌ Impersonate others or misrepresent affiliations</li>
+        </ul>
+
+        <p><strong>Technical Violations:</strong></p>
+        <ul>
+            <li>❌ Attempt to hack, exploit, or reverse engineer the App</li>
+            <li>❌ Use bots, scripts, or automated tools</li>
+            <li>❌ Interfere with or disrupt the App's operation</li>
+            <li>❌ Access others' accounts without permission</li>
+            <li>❌ Bypass any security measures</li>
+        </ul>
+
+        <p><strong>Abuse:</strong></p>
+        <ul>
+            <li>❌ Harass, bully, or threaten other users</li>
+            <li>❌ Collect users' personal information</li>
+            <li>❌ Engage in fraudulent activities</li>
+            <li>❌ Violate any applicable laws or regulations</li>
+        </ul>
+
+        <h3>3.3 Consequences</h3>
+        <p>Violations may result in:</p>
+        <ul>
+            <li>Content removal</li>
+            <li>Account suspension</li>
+            <li>Permanent account termination</li>
+            <li>Legal action</li>
+        </ul>
+
+        <h2>4. User Content</h2>
+
+        <h3>4.1 Your Content</h3>
+        <p>You retain ownership of all content you create (quests, messages, notes, etc.). By posting content, you grant us a non-exclusive, worldwide, royalty-free license to use, display, and distribute your content within the App.</p>
+
+        <h3>4.2 Content Responsibility</h3>
+        <p>You are solely responsible for your content. We do not endorse or guarantee the accuracy of user content.</p>
+
+        <h3>4.3 Content Removal</h3>
+        <p>We reserve the right to remove any content that violates these Terms without notice.</p>
+
+        <h2>5. Premium Subscriptions</h2>
+
+        <div class="pricing-table">
+            <h3>Subscription Tiers</h3>
+            
+            <div class="tier">
+                <h4>Free Tier - $0</h4>
+                <ul>
+                    <li>1 guild maximum</li>
+                    <li>20 members per guild</li>
+                    <li>Ad-supported</li>
+                    <li>Basic features</li>
+                </ul>
+            </div>
+            
+            <div class="tier premium">
+                <h4>Silver Tier - $4.99/month</h4>
+                <ul>
+                    <li>⭐ 3 guilds</li>
+                    <li>⭐ 35 members per guild</li>
+                    <li>✨ Ad-free experience</li>
+                    <li>✨ Custom quest categories</li>
+                    <li>✨ Priority support</li>
+                </ul>
+            </div>
+            
+            <div class="tier premium">
+                <h4>Gold Tier - $9.99/month</h4>
+                <ul>
+                    <li>⭐ 5 guilds</li>
+                    <li>⭐ 50 members per guild</li>
+                    <li>✨ Ad-free experience</li>
+                    <li>✨ All Silver features</li>
+                    <li>🤖 AI quest suggestions</li>
+                    <li>🏆 Exclusive badges</li>
+                    <li>⚡ Guild XP boost (1.5x)</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>5.2 Billing</h3>
+        <ul>
+            <li>Subscriptions are billed monthly through your app store account</li>
+            <li>Automatic renewal unless canceled</li>
+            <li>Prices subject to change with 30 days notice</li>
+            <li>No refunds for partial months</li>
+        </ul>
+
+        <h3>5.3 Cancellation</h3>
+        <p>You may cancel your subscription at any time through your app store settings. Access to premium features continues until the end of the current billing period.</p>
+
+        <h3>5.4 Free Trial</h3>
+        <p>If offered, free trials automatically convert to paid subscriptions unless canceled before trial end.</p>
+
+        <h2>6. Intellectual Property</h2>
+
+        <h3>6.1 Our Property</h3>
+        <p>All aspects of the App are owned by us and protected by copyright, trademark, and other laws, including:</p>
+        <ul>
+            <li>App design, layout, and graphics</li>
+            <li>Software code</li>
+            <li>Trademarks and logos</li>
+            <li>Content we create</li>
+        </ul>
+
+        <h3>6.2 Limited License</h3>
+        <p>We grant you a limited, non-exclusive, non-transferable license to use the App for personal, non-commercial purposes.</p>
+
+        <h3>6.3 Restrictions</h3>
+        <p>You may NOT:</p>
+        <ul>
+            <li>Copy, modify, or distribute the App</li>
+            <li>Create derivative works</li>
+            <li>Reverse engineer or decompile</li>
+            <li>Remove copyright notices</li>
+            <li>Use our trademarks without permission</li>
+        </ul>
+
+        <h2>7. Third-Party Services</h2>
+
+        <h3>7.1 Third-Party Integrations</h3>
+        <p>The App uses third-party services:</p>
+        <ul>
+            <li>Supabase (backend)</li>
+            <li>RevenueCat (subscriptions)</li>
+            <li>Google AdMob (advertising)</li>
+        </ul>
+        <p>These services have their own terms and privacy policies.</p>
+
+        <h2>8. Disclaimers</h2>
+
+        <div class="warning-box">
+            <h3>8.1 "As Is" Service</h3>
+            <p><strong>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED.</strong></p>
+        </div>
+
+        <h3>8.2 No Guarantees</h3>
+        <p>We do not guarantee that:</p>
+        <ul>
+            <li>The App will be error-free or uninterrupted</li>
+            <li>Defects will be corrected</li>
+            <li>The App is free from viruses or harmful components</li>
+            <li>Results from using the App will meet your expectations</li>
+        </ul>
+
+        <h3>8.3 Not Professional Advice</h3>
+        <p>The App is for informational and motivational purposes only. It is NOT:</p>
+        <ul>
+            <li>Medical advice</li>
+            <li>Mental health counseling</li>
+            <li>Professional guidance</li>
+            <li>A substitute for professional services</li>
+        </ul>
+
+        <h2>9. Limitation of Liability</h2>
+
+        <div class="warning-box">
+            <p><strong>TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR:</strong></p>
+            <ul>
+                <li>Indirect, incidental, or consequential damages</li>
+                <li>Loss of profits, data, or goodwill</li>
+                <li>Service interruptions</li>
+                <li>User errors or misuse</li>
+                <li>Third-party actions</li>
+            </ul>
+            <p><strong>Our total liability shall not exceed the amount you paid us in the 12 months preceding the claim, or $100, whichever is greater.</strong></p>
+        </div>
+
+        <h2>10. Termination</h2>
+
+        <h3>10.1 By You</h3>
+        <p>You may terminate your account at any time:</p>
+        <ol>
+            <li>Go to Settings → Account</li>
+            <li>Select "Delete Account"</li>
+            <li>Confirm deletion</li>
+        </ol>
+
+        <h3>10.2 By Us</h3>
+        <p>We may suspend or terminate your account if:</p>
+        <ul>
+            <li>You violate these Terms</li>
+            <li>You engage in fraudulent activity</li>
+            <li>Required by law</li>
+            <li>We discontinue the App</li>
+        </ul>
+
+        <h2>11. Dispute Resolution</h2>
+
+        <h3>11.1 Informal Resolution</h3>
+        <p>Before filing a claim, contact us at <a href="mailto:kingsdevapp1@gmail.com">kingsdevapp1@gmail.com</a> to resolve the issue informally.</p>
+
+        <h3>11.2 Arbitration</h3>
+        <p>Any disputes will be resolved through binding arbitration, not court litigation, except for small claims court actions or intellectual property disputes.</p>
+
+        <h3>11.3 Class Action Waiver</h3>
+        <p>You agree to resolve disputes individually, not as part of a class action or representative proceeding.</p>
+
+        <div class="contact-box">
+            <h2>Contact Us</h2>
+            <p>Questions about these Terms?</p>
+            <p style="margin-top: 15px;">
+                <strong>Email:</strong> <a href="mailto:kingsdevapp1@gmail.com">kingsdevapp1@gmail.com</a>
+            </p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                We respond to all inquiries within 7 business days.
+            </p>
+        </div>
+
+        <div class="summary-box">
+            <h2>Quick Summary</h2>
+            <ul>
+                <li><span class="checkmark">✓</span> You must be 13+ to use the App</li>
+                <li><span class="checkmark">✓</span> Keep your account secure</li>
+                <li><span class="checkmark">✓</span> Don't post harmful or illegal content</li>
+                <li><span class="checkmark">✓</span> You own your content; we can use it in the App</li>
+                <li><span class="checkmark">✓</span> Premium subscriptions auto-renew monthly</li>
+                <li><span class="checkmark">✓</span> We can terminate accounts that violate Terms</li>
+                <li><span class="checkmark">✓</span> App provided "as is" without guarantees</li>
+                <li><span class="checkmark">✓</span> Disputes resolved through arbitration</li>
+                <li><span class="checkmark">✓</span> We may update these Terms with notice</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p><strong>Grind Life RPG</strong></p>
+            <p>Version 1.0</p>
+            <p style="margin-top: 10px;">
+                <a href="mailto:kingsdevapp1@gmail.com">kingsdevapp1@gmail.com</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
