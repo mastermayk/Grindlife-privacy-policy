@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Grind Life RPG</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #0A0E27 0%, #1a1f3a 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #00D9FF;
+        }
+        
+        .header h1 {
+            color: #00D9FF;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .last-updated {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #666;
+        }
+        
+        h2 {
+            color: #0A0E27;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #00D9FF;
+        }
+        
+        h3 {
+            color: #1a1f3a;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #444;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 20px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .info-box {
+            background: #e7f5ff;
+            padding: 20px;
+            border-left: 4px solid #00D9FF;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #00D9FF 0%, #B345FF 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .contact-box h2 {
+            color: white;
+            border: none;
+            margin-top: 0;
+        }
+        
+        .contact-box a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        
+        .summary-box {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+        
+        .summary-box h2 {
+            margin-top: 0;
+        }
+        
+        .checkmark {
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #ddd;
+            color: #666;
+        }
+        
+        a {
+            color: #00D9FF;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚡ Privacy Policy</h1>
+            <p class="subtitle">Grind Life RPG</p>
+        </div>
+        
+        <div class="last-updated">
+            <strong>Last Updated:</strong> November 28, 2024
+        </div>
+        
+        <div class="info-box">
+            <strong>TL;DR:</strong> We respect your privacy. We collect only what's necessary to run the app, never sell your data, and you can delete everything anytime. Read on for full details.
+        </div>
+
+        <h2>Introduction</h2>
+        <p>Welcome to Grind Life RPG ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application ("App").</p>
+        <p>By using Grind Life RPG, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use our App.</p>
+
+        <h2>1. Information We Collect</h2>
+        
+        <h3>1.1 Personal Information You Provide</h3>
+        <p>When you create an account and use our App, we collect the following information:</p>
+        <ul>
+            <li><strong>Account Information:</strong> Email address, username, password (encrypted)</li>
+            <li><strong>Profile Information:</strong> Display name, avatar selection, focus area preferences</li>
+            <li><strong>User-Generated Content:</strong> Quest titles, descriptions, notes, guild messages, chat messages</li>
+            <li><strong>Progress Data:</strong> XP earned, level progress, achievements unlocked, quest completion history</li>
+            <li><strong>Social Data:</strong> Guild memberships, friend connections, challenge participation</li>
+        </ul>
+
+        <h3>1.2 Automatically Collected Information</h3>
+        <p>We automatically collect certain information when you use our App:</p>
+        <ul>
+            <li><strong>Device Information:</strong> Device type, operating system version, unique device identifiers</li>
+            <li><strong>Usage Data:</strong> App features used, time spent in app, screens viewed, interactions</li>
+            <li><strong>Performance Data:</strong> Crash reports, error logs, app performance metrics</li>
+            <li><strong>Location Data:</strong> We do NOT collect precise location data. Only general region for service optimization.</li>
+        </ul>
+
+        <h3>1.3 Information from Third Parties</h3>
+        <p>We may receive information from:</p>
+        <ul>
+            <li><strong>Supabase (Backend Provider):</strong> Authentication and database services</li>
+            <li><strong>RevenueCat (Subscription Management):</strong> Purchase history, subscription status</li>
+            <li><strong>Google AdMob (Advertising):</strong> Ad interaction data (free tier users only)</li>
+            <li><strong>App Stores:</strong> Purchase verification, app installation data</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+
+        <h3>2.1 Core App Functionality</h3>
+        <ul>
+            <li>Provide and maintain the App services</li>
+            <li>Create and manage your user account</li>
+            <li>Enable quest creation, tracking, and completion</li>
+            <li>Facilitate guild creation and social features</li>
+            <li>Track progress, XP, levels, and achievements</li>
+            <li>Synchronize data across devices</li>
+        </ul>
+
+        <h3>2.2 Communication</h3>
+        <ul>
+            <li>Send important account notifications</li>
+            <li>Notify you of guild activities and challenges</li>
+            <li>Respond to your support requests</li>
+            <li>Send service announcements and updates</li>
+        </ul>
+
+        <h3>2.3 Improvement and Analytics</h3>
+        <ul>
+            <li>Analyze app usage to improve features</li>
+            <li>Monitor app performance and fix bugs</li>
+            <li>Conduct research and development</li>
+            <li>Understand user preferences and behavior</li>
+        </ul>
+
+        <h3>2.4 Subscription and Payments</h3>
+        <ul>
+            <li>Process premium subscription purchases</li>
+            <li>Manage subscription renewals and cancellations</li>
+            <li>Provide access to premium features</li>
+            <li>Handle refund requests</li>
+        </ul>
+
+        <h3>2.5 Advertising (Free Tier Only)</h3>
+        <ul>
+            <li>Display relevant advertisements</li>
+            <li>Measure ad effectiveness</li>
+            <li>Provide rewarded ad experiences</li>
+        </ul>
+
+        <h2>3. How We Share Your Information</h2>
+        
+        <div class="highlight">
+            <strong>Important:</strong> We do NOT sell your personal information to anyone.
+        </div>
+
+        <p>We may share your information in the following circumstances:</p>
+
+        <h3>3.1 Service Providers</h3>
+        <p>We share information with third-party service providers who assist us:</p>
+        <ul>
+            <li><strong>Supabase:</strong> Database and authentication services</li>
+            <li><strong>RevenueCat:</strong> Subscription and payment processing</li>
+            <li><strong>Google AdMob:</strong> Ad serving (free tier users only)</li>
+            <li><strong>Cloud Infrastructure:</strong> Data storage and hosting</li>
+        </ul>
+
+        <h3>3.2 Within the App</h3>
+        <p>Certain information is visible to other users:</p>
+        <ul>
+            <li><strong>Public Profile:</strong> Username, avatar, level (visible to friends and guild members)</li>
+            <li><strong>Guild Information:</strong> Guild membership, contribution stats, messages in guild chat</li>
+            <li><strong>Leaderboards:</strong> Username, level, XP (if you participate)</li>
+            <li><strong>Achievements:</strong> Unlocked achievements may be visible to friends</li>
+        </ul>
+
+        <h2>4. Data Security</h2>
+        <p>We implement appropriate technical and organizational measures to protect your information:</p>
+        <ul>
+            <li><strong>Encryption:</strong> All data transmitted using SSL/TLS encryption</li>
+            <li><strong>Password Protection:</strong> Passwords hashed and salted</li>
+            <li><strong>Access Controls:</strong> Strict limits on data access</li>
+            <li><strong>Regular Audits:</strong> Ongoing security monitoring</li>
+            <li><strong>Secure Infrastructure:</strong> Data stored on secure Supabase servers</li>
+        </ul>
+
+        <div class="highlight">
+            <strong>Important:</strong> No method of transmission over the internet is 100% secure. While we strive to protect your information, we cannot guarantee absolute security.
+        </div>
+
+        <h2>5. Data Retention</h2>
+        <p>We retain your information as follows:</p>
+        <ul>
+            <li><strong>Active Accounts:</strong> Data retained while your account is active</li>
+            <li><strong>Deleted Accounts:</strong> Most data deleted within 30 days</li>
+            <li><strong>Legal Obligations:</strong> Some data retained longer for compliance</li>
+            <li><strong>Anonymized Data:</strong> May retain anonymized data indefinitely</li>
+        </ul>
+
+        <h3>Deleting Your Data</h3>
+        <p>You can delete your account at any time:</p>
+        <ol>
+            <li>Go to Settings → Account</li>
+            <li>Select "Delete Account"</li>
+            <li>Confirm deletion</li>
+            <li>Your data will be permanently deleted within 30 days</li>
+        </ol>
+
+        <h2>6. Your Privacy Rights</h2>
+        <p>You have the following rights:</p>
+        <ul>
+            <li><span class="checkmark">✓</span> <strong>Access:</strong> Request a copy of your personal data</li>
+            <li><span class="checkmark">✓</span> <strong>Correction:</strong> Update inaccurate information</li>
+            <li><span class="checkmark">✓</span> <strong>Deletion:</strong> Request deletion of your data</li>
+            <li><span class="checkmark">✓</span> <strong>Portability:</strong> Export your data</li>
+            <li><span class="checkmark">✓</span> <strong>Objection:</strong> Object to certain data processing</li>
+            <li><span class="checkmark">✓</span> <strong>Opt-Out:</strong> Opt out of marketing and ads</li>
+        </ul>
+
+        <h2>7. Children's Privacy</h2>
+        <p>Grind Life RPG is intended for users aged <strong>13 and older</strong>. We do not knowingly collect information from children under 13.</p>
+        <p>If you are under 13, please do not use this App. If we discover we have collected information from a child under 13, we will delete it immediately.</p>
+
+        <h2>8. International Data Transfers</h2>
+        <p>Your information may be transferred to and processed in countries other than your own, including the United States. We ensure appropriate safeguards are in place to protect your information.</p>
+
+        <h2>9. Third-Party Services</h2>
+        
+        <h3>Google AdMob (Free Tier Only)</h3>
+        <p>For free tier users, we use Google AdMob for advertising:</p>
+        <ul>
+            <li>AdMob may collect device and usage data</li>
+            <li>Used to serve personalized ads</li>
+            <li>You can opt out in device settings</li>
+            <li>Premium subscribers see no ads</li>
+        </ul>
+        <p>Learn more: <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></p>
+
+        <h2>10. California Privacy Rights (CCPA)</h2>
+        <p>California residents have additional rights:</p>
+        <ul>
+            <li>Right to know what information is collected</li>
+            <li>Right to delete personal information</li>
+            <li>Right to opt-out of sale (we don't sell your data)</li>
+            <li>Right to non-discrimination</li>
+        </ul>
+
+        <h2>11. European Privacy Rights (GDPR)</h2>
+        <p>EEA residents have rights under GDPR:</p>
+        <ul>
+            <li>Right to access your data</li>
+            <li>Right to rectification</li>
+            <li>Right to erasure ("right to be forgotten")</li>
+            <li>Right to restrict processing</li>
+            <li>Right to data portability</li>
+            <li>Right to object</li>
+        </ul>
+
+        <h2>12. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. When we do:</p>
+        <ul>
+            <li>We'll update the "Last Updated" date</li>
+            <li>Significant changes will be notified via app or email</li>
+            <li>Continued use after changes means acceptance</li>
+        </ul>
+
+        <div class="contact-box">
+            <h2>Contact Us</h2>
+            <p>Questions about this Privacy Policy?</p>
+            <p style="margin-top: 15px;">
+                <strong>Email:</strong> <a href="mailto:kingsdevapp1@gmail.com">kingsdevapp1@gmail.com</a>
+            </p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                We respond to all inquiries within 30 days.
+            </p>
+        </div>
+
+        <div class="summary-box">
+            <h2>Quick Summary</h2>
+            <ul>
+                <li><span class="checkmark">✓</span> We collect account info, usage data, and content you create</li>
+                <li><span class="checkmark">✓</span> We use Supabase, RevenueCat, and AdMob</li>
+                <li><span class="checkmark">✓</span> We do NOT sell your personal information</li>
+                <li><span class="checkmark">✓</span> Free tier users see ads; premium users are ad-free</li>
+                <li><span class="checkmark">✓</span> You can delete your account anytime</li>
+                <li><span class="checkmark">✓</span> We protect data with encryption</li>
+                <li><span class="checkmark">✓</span> You have rights to access and control your data</li>
+                <li><span class="checkmark">✓</span> App is for users 13 and older</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p><strong>Grind Life RPG</strong></p>
+            <p>Version 1.0</p>
+            <p style="margin-top: 10px;">
+                <a href="mailto:kingsdevapp1@gmail.com">kingsdevapp1@gmail.com</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
